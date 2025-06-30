@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ebook Pentatônica Selvagem</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        position: relative;
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('img/mfplay2.jpg'); /* imagem de fundo */
+        background-size: cover;
+        background-position: center;
+        filter: grayscale(100%) brightness(40%);
+        z-index: -1;
+      }
+
+      .conteudo {
+        text-align: center;
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 30px;
+      }
+
+      img.capa {
+        width: 500px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        margin-bottom: 30px;
+      }
+
+      hr {
+        margin: 40px auto;
+        border: 1px solid white;
+        width: 80%;
+      }
+
+      .descricao {
+        font-size: 18px;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 40px;
+      }
+
+      .botao {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 18px;
+        background-color: #ff0000;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        margin: 10px;
+        transition: background-color 0.3s;
+      }
+
+      .botao:hover {
+        background-color: #cc0000;
+      }
+
+      .contato {
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 1.8;
+      }
+
+      .contato a {
+        color: #00ffcc;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .contato a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsividade para telas pequenas */
+      @media (max-width: 600px) {
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        .descricao {
+          font-size: 16px;
+          padding: 0 10px;
+          text-align: left;
+        }
+
+        img.capa {
+          width: 90%;
+        }
+
+        .botao {
+          width: 90%;
+          font-size: 16px;
+          padding: 12px;
+        }
+
+        .conteudo {
+          padding: 20px 10px;
+          border-radius: 0;
+          box-shadow: none;
+        }
+
+        .contato {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteudo">
+      <h1>Ebook Pentatônica Selvagem</h1>
+      <p>Licks e Padrões para usar em praticamente qualquer música</p>
+      <img src="img/mfRedstar.jpeg" alt="Capa do Ebook" class="capa" />
+
+      <hr />
+
+      <div class="descricao">
+        <p>
+          Neste ebook temos 10 exemplos de Frases e Licks em tons variados utilizando basicamente a pentatônica, penta m7 e penta blues. Não adicionei nada fora da penta. Estas frases podem ser interpretadas em praticamente qualquer música — basta ajustar o tempo e, obviamente, a tonalidade.
+        </p>
+        <p>
+          Quer estudar mais sobre Escala Pentatônica? Conheça meu curso completo sobre penta! São mais de 30 licks nos estilos bluesy, rock, metal, Zakk Wylde, Dimebag Darrell, com patterns, exercícios, além de aulas de bend e vibrato, palhetada híbrida, improvisação, teoria e relação entre pentas m7, blues, m6 e M7. Um curso completo pra você detonar na pentatônica!
+        </p>
+      </div>
+
+      <!-- Botões -->
+      <a href="https://hotmart.com/pt-br/marketplace/produtos/patterns-licks-sobre-a-escala-pentatonica/J64071325D" class="botao" target="_blank">
+        Conheça o Curso Completo
+      </a>
+      <a href="https://drive.google.com/drive/folders/1ZZy7aajV_PqyHFCRsAFpDR-uzG4l9lAp?usp=sharing" class="botao" target="_blank"download>
+        Baixar PDF do Ebook
+      </a>
+
+      <!-- Contato para aulas -->
+      <div class="contato">
+        <hr />
+        <p><strong>Aulas Online de Guitarra</strong><br />
+        Estude comigo em tempo real, do zero ao avançado!<p></p>
+          📞 WhatsApp: <a href="https://wa.me/5511970830076" target="_blank">11 97083-0076</a><br />
+          📧 E-mail: <a href="mailto:mafilhoguitar@gmail.com">mafilhoguitar@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
